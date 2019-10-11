@@ -5,8 +5,8 @@ exports.seed = function (knex) {
     .then(function () {
       // Inserts seed entries
       return knex('instructions').insert([
-        { id: 1, title: 'how to cook a burger', instructions: '1. grill 2.eat', recipe_id: 1 },
-        { id: 2, title: 'how to bake a pie', instructions: '1. put in window', recipe_id: 2 },
+        { id: 1, title: 'how to cook a burger', instructions: '1. grill 2.eat', recipes_id: 1 },
+        { id: 2, title: 'how to bake a pie', instructions: '1. put in window', recipes_id: 2 },
       ]);
     });
 };
